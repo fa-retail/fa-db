@@ -1,4 +1,4 @@
-SELECT * FROM fa.product;CREATE TABLE `product` (
+CREATE TABLE `product` (
   `id` int(11) NOT NULL COMMENT 'FA product id',
   `name` varchar(255) DEFAULT NULL COMMENT 'FA product name',
   `price` decimal(15,0) DEFAULT NULL COMMENT 'FA product price',
